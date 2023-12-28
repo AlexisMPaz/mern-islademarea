@@ -28,6 +28,7 @@ export default function LoginPage() {
             .then(response => response.json())
             .then(data => {
                 if (data.status === "success") {
+                    console.log(data)
                     updateUser(data.payload);
                     router.push('/products');
                 } else {
