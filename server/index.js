@@ -34,7 +34,7 @@ const specs = swaggerJSDoc(swaggerOptions);
 
 app.use(cors(
   {
-    origin:[""],
+    origin:["https://mern-islademarea-4htk.vercel.app"],
     methods: ["POST", "PUT", "GET", "DELETE"],
     credentials: true
   }
